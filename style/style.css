@@ -97,13 +97,33 @@ a{
     display:flex;
     flex-direction:column;
     align-items:center;
+    padding: 80px 80px;
 }
 .servicios{
     display:flex;
+    flex:1;
+    width:100%;
     justify-content: space-evenly;
+}
+
+.information h2{
+    margin-bottom: 40px;
+    font-size: 40px;
 }
 
 .servicio{
     display:flex;
     flex-direction:column;
+    text-align: center;
+    align-items:center;
+}
+
+.servicio p{
+    margin-top: 20px;
+}
+
+.icon{
+    border: 3px dashed #1C6EA4;
+    border-radius: 15px;
+    padding:15px;
 }
